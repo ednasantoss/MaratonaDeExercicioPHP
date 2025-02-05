@@ -9,7 +9,7 @@
 
 <body>
     <?php
-    //exercicio 1
+    //Exercicio 1
     if (-2 < 2) {
         echo "O número -2 negativo! <br>";
     }
@@ -18,7 +18,7 @@
         echo "O número 2 positivo!";
     }
 
-    //exercicio 2
+    //Exercicio 2
     $nota = 8.5;
     $Reprovado = 0 <= 4.9;
     $Recuperacao = 5 <= 6.9;
@@ -43,7 +43,7 @@
     } else ($nota <= $AprovadoComDistinção);
     echo "Você está Aprovado com Distinção.";
 
-    //exercicio 3
+    //Exercicio 3
     echo "<br>";
     $idade = 18;
     if ($idade < 16) {
@@ -54,8 +54,7 @@
         echo "Você já pode votar, e o voto é obrigatorio.";
     }
 
-    //exercicio 4
-
+    //Exercicio 4
     echo "<br>";
     $numero = 10;
 
@@ -65,7 +64,7 @@
         echo "$numero é um número ímpar.";
     }
 
-    //exercicio 5
+    //Exercicio 5
     echo "<br>";
     $hora = "16:30";
     $hora_timestamp = strtotime($hora);

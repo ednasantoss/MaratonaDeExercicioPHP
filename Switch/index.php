@@ -10,9 +10,9 @@
 <body>
     <?php
 
-    //exercicio 1
+    //Exercicio 1
     $numero = 6;
-
+    
     switch ($numero) {
         case 1:
             $dia_da_semana = "Domingo";
@@ -43,7 +43,7 @@
     echo "O dia da semana correspondente ao número $numero é: $dia_da_semana";
 
 
-    //exercicio 2
+    //Exercicio 2
     echo "<br>";
     $nota = 5; 
  
@@ -64,20 +64,19 @@ switch (true) {
  
 echo "A categoria do estudante com nota $nota é: $categoria";
 
-
+//Exercicio 3
 echo "<br>";
-$preco_original = 100.00; // Substitua pelo preço original do produto
-$codigo_desconto = 2; // Substitua pelo código de desconto (1 a 3)
+$preco_original = 100.00; 
  
 switch ($codigo_desconto) {
     case 1:
-        $desconto = 0.10; // 10% de desconto
+        $desconto = 0.10; 
         break;
     case 2:
-        $desconto = 0.20; // 20% de desconto
+        $desconto = 0.20; 
         break;
     case 3:
-        $desconto = 0.30; // 30% de desconto
+        $desconto = 0.30; 
         break;
     default:
         $desconto = 0;
